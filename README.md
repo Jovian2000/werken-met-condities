@@ -38,14 +38,21 @@ if a > b:
     Max = a
     Min = b
     print("a is het grootste getal: " + str(Max))
+    print("Het maximum is: " + str(Max))
+    print("Het minimum is: " + str(Min))
+
 elif a < b:
     Max = b
     Min = a
     print("a is het kleinste getal: " + str(Min))
+    print("Het maximum is: " + str(Max))
+    print("Het minimum is: " + str(Min))
 else:
+    Max = a
+    Max = b
     print("a en b zijn even groot")
-print("Het maximum is: " + str(Max))
-print("Het minimum is: " + str(Min))
+    print("Het maximum is: " + str(Max))
+    print("Het minimum is: " + str(Min))
 ## F1.3.01.L2 
 print("Welke kaas is het?")
 print("Antwoord alleen met 'ja' of 'nee'")
