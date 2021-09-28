@@ -1,13 +1,16 @@
 # werken-met-condities
 ## F1.3.01.L1
 ### input en if-statement
+```python
 a = int(input("a = "))
 b = int(input("b = "))
 if a > b: 
     Max = a
     Min = b
     print("a is het grootste getal: " + str(Max))
+```
 ### elif-statement
+```python
 a = int(input("a = "))
 b = int(input("b = "))
 if a > b: 
@@ -18,7 +21,9 @@ elif a < b:
     Max = b
     Min = a
     print("a is het kleinste getal: " + str(Min))
+```
 ### else-statement
+```python
 a = int(input("a = "))
 b = int(input("b = "))
 if a > b: 
@@ -31,7 +36,9 @@ elif a < b:
     print("a is het kleinste getal: " + str(Min))
 else:
     print("a en b zijn even groot")
+```
 ### Min en Max
+```python
 a = int(input("a = "))
 b = int(input("b = "))
 if a > b: 
@@ -53,7 +60,9 @@ else:
     print("a en b zijn even groot")
     print("Het maximum is: " + str(Max))
     print("Het minimum is: " + str(Min))
+```
 ## F1.3.01.L2 
+```python
 print("Welke kaas is het?")
 print("Antwoord alleen met 'ja' of 'nee'")
 print("Is de kaas geel? ")
@@ -285,7 +294,9 @@ if lengte >= 150 and gewicht >=90:
         print("U voldoet niet aan de juiste eisen.")
 else:
     print("U voldoet niet aan de juiste eisen.")
+```
 ## F1.3.01.O2
+```python
 print("---------------------------------------------")
 print("         Welcome                             ")
 print("You will enter a cave to steal               ")
@@ -537,3 +548,4 @@ else:
     print("It appears the sign was a trap for anyone who tries to steal the gem.")
     print("")
     print("Game Over!")
+```
